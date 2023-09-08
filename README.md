@@ -1,7 +1,7 @@
 # Raspberry-Pi-Adafruit-Motor-Shield-Interface
 Raspberry Pi interfacing with L293D Adafruit Motor Shield Driver
 -
-As many of you know that the Adafruit Motor Shield is one of the most widely available and affordable motor driver which has multiple expansion ports and dual L293D motor driver with a half H driver, the reason for its popularity also lies in the fact that it is designed specifically for Arduino Uno and is compatible with other Arduino's as well. However, the story isn't the same for Raspberry Pi's as it is not compatible with them out of the box, you have to map out the pins and make your own connections. I searched the entire internet and didn't find anything that would help me build a interface between the two of them, that was until I found this article https://lastminuteengineers.com/l293d-motor-driver-shield-arduino-tutorial/ here the author states that 
+As many of you know that the Adafruit Motor Shield (AFM) is one of the most widely available and affordable motor driver which has multiple expansion ports and dual L293D motor driver with a half H driver, the reason for its popularity also lies in the fact that it is designed specifically for Arduino Uno and is compatible with other Arduino's as well. However, the story isn't the same for Raspberry Pi's as it is not compatible with them out of the box, you have to map out the pins and make your own connections. I searched the entire internet and didn't find anything that would help me build a interface between the two of them, that was until I found this article https://lastminuteengineers.com/l293d-motor-driver-shield-arduino-tutorial/ here the author states that 
 
 "D9 and D10 are used to control the servo motors. D10 is connected to Servo 1, while D9 is connected to Servo 2."
 
@@ -26,6 +26,5 @@ Here is the pin layout for your convinience (Image courtesy- https://pinout.xyz/
 
 The code I used to test this is provided in the repository (Code belongs to Christopher Barnatt who runs ExplainingComputers YouTube channel). To run the code you need to use Thonny on Raspberry Pi.
 
-As of now only Servo's can be controlled using this method when I figure out how to use DC motors or Stepper moters with AFM on Raspberry Pi I will make a commit on this repository.
-
-Till then this is as far as I could go.
+As of now only Servo's can be controlled using this method when I figure out how to use DC motors or Stepper moters with AFM on Raspberry Pi I will make a commit on this repository. Till then this is as far as I could go.
+Please feel free to contribute as this would help others as there is no tutorial on how to interface AFM with Raspberry Pi.
